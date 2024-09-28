@@ -8,7 +8,7 @@
 .nav-item .nav-link {
   color: white;
   font-weight: 600;
-}
+}.hero-section
 .nav-logout-btn {
   font-weight: 600;
   border: 1px solid white;
@@ -74,4 +74,20 @@
   text-decoration: none;
   color: white;
   padding: 1.15rem 0.15rem;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px){
+  .hero-section {
+    background-image: url("/assets/images/landing_page_background.svg");
+    background-size: cover;
+    height: 70vh;
+  }
+  .footer {
+    height: 100%;
+    border-top: 1px solid white;
+  }
+  .footer-blog {
+    height: 100%;
+    border-top: 1px solid white;
+  }
 }
